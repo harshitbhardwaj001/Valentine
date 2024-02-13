@@ -43,7 +43,7 @@ export default function Home() {
     <>
       {!main && (
         <div className="w-[100vw] h-[108.5vh] absolute bg-[#D2042D] z-[100]">
-          <h1 className="text-[#EAEAEA] mt-[20rem] ques w-[1350px] ml-[8rem] lg:max-xl:text-[1.8rem] lg:max-xl:w-[850px] xs:max-md:w-[320px] xs:max-md:ml-[2.3rem] xs:max-md:text-[1.1rem] xs:max-md:tracking-tight">
+          <h1 className="text-[#EAEAEA] mt-[20rem] ques w-[1350px] ml-[8rem] lg:max-xl:text-[1.8rem] lg:max-xl:w-[850px] xs:max-md:w-[280px] xs:max-md:ml-[2.3rem] xs:max-md:text-[1rem] xs:max-md:tracking-tight">
             Hi Baby, Can I ask you something?
           </h1>
           <button
