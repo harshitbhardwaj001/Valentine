@@ -43,12 +43,12 @@ export default function Home() {
     <>
       {!main && (
         <div className="w-[100vw] h-[108.5vh] absolute bg-[#D2042D] z-[100]">
-          <h1 className="text-[#EAEAEA] mt-[20rem] ques w-[1350px] ml-[8rem] lg:max-xl:text-[1.8rem] lg:max-xl:w-[850px] xs:max-md:w-[370px] xs:max-md:ml-[2rem] xs:max-md:text-[1.3rem] xs:max-md:tracking-tight">
+          <h1 className="text-[#EAEAEA] mt-[20rem] ques w-[1350px] ml-[8rem] lg:max-xl:text-[1.8rem] lg:max-xl:w-[850px] xs:max-md:w-[320px] xs:max-md:ml-[2.3rem] xs:max-md:text-[1.1rem] xs:max-md:tracking-tight">
             Hi Baby, Can I ask you something?
           </h1>
           <button
             type="button"
-            class="text-gray-900 text-xl bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg px-20 py-4 me-2 mb-2 ml-[42rem] mt-[5rem] button lg:max-xl:ml-[26rem] xs:max-md:ml-[6.5rem]"
+            class="text-gray-900 text-xl bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg px-20 py-4 me-2 mb-2 ml-[42rem] mt-[5rem] button lg:max-xl:ml-[26rem] xs:max-md:ml-[5rem]"
             onClick={() => handleClick()}
           >
             YES
@@ -67,7 +67,9 @@ export default function Home() {
               className="h-[200px]"
               src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
             />
-            <h1 className="text-4xl my-4 xs:max-md:text-[1.3rem]">Will you be my Valentine Forever?</h1>
+            <h1 className="text-4xl my-4 xs:max-md:text-[1.3rem]">
+              Will you be my Valentine Forever?
+            </h1>
             <div>
               <button
                 className={`bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-4`}
